@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "user_id": "DOEJHN99B07D969L",
+      "static_data": {
+        "registration_date": "2024-02-09T12:00:00",
+        "name": "John",
+        "surname": "Doe",
+        "age": 35,
+        "gender": "Male",
+        "date_of_birth": "1989-07-04",
+        "fiscal_code": "DOEJHN99B07D969L",
+        "address": "123 Main St",
+        "phone": "123-456-7890",
+        "email": "john.doe@example.com",
+        "username": "johndoe",
+        "password": "encrypted_password",
+        "medical_history": {
+          "hypertension": false,
+          "diabetes": true,
+          "asthma": false,
+          "arthritis": true
+        }
+      },
+      "dynamic_data": {
+        "2024-02-09": [
+          {
+            "time": "08:00:00",
+            "HR": 75,
+            "BP": {
+              "systolic": 120,
+              "diastolic": 80
+            },
+            "Temp": 37.2,
+            "GPS": {
+              "latitude": 41.40338,
+              "longitude": 2.17403
+            }
+          },
+          {
+            "time": "12:00:00",
+            "HR": 80,
+            "BP": {
+              "systolic": 118,
+              "diastolic": 82
+            },
+            "Temp": 37.5,
+            "GPS": {
+              "latitude": 41.40358,
+              "longitude": 2.17423
+            }
+          }
+        ]
+      }
+    },
+    {
+      "user_id": "SMTHAN99A08D123K",
+      "static_data": {
+        "registration_date": "2024-02-10T09:30:00",
+        "name": "Anna",
+        "surname": "Smith",
+        "age": 30,
+        "gender": "Female",
+        "date_of_birth": "1994-04-08",
+        "fiscal_code": "SMTHAN99A08D123K",
+        "address": "456 Second St",
+        "phone": "987-654-3210",
+        "email": "anna.smith@example.com",
+        "username": "annasmith",
+        "password": "encrypted_password",
+        "medical_history": {
+          "hypertension": true,
+          "diabetes": false,
+          "asthma": true,
+          "arthritis": false
+        }
+      },
+      "dynamic_data": {
+        "2024-02-10": [
+          {
+            "time": "09:00:00",
+            "HR": 78,
+            "BP": {
+              "systolic": 115,
+              "diastolic": 75
+            },
+            "Temp": 36.9,
+            "GPS": {
+              "latitude": 41.4036,
+              "longitude": 2.1744
+            }
+          },
+          {
+            "time": "13:00:00",
+            "HR": 82,
+            "BP": {
+              "systolic": 117,
+              "diastolic": 76
+            },
+            "Temp": 37.0,
+            "GPS": {
+              "latitude": 41.4038,
+              "longitude": 2.1746
+            }
+          },
+          {
+            "time": "18:00:00",
+            "HR": 77,
+            "BP": {
+              "systolic": 119,
+              "diastolic": 78
+            },
+            "Temp": 36.8,
+            "GPS": {
+              "latitude": 41.404,
+              "longitude": 2.1748
+            }
+          }
+        ],
+        "2024-02-11": [
+          {
+            "time": "10:00:00",
+            "HR": 76,
+            "BP": {
+              "systolic": 116,
+              "diastolic": 74
+            },
+            "Temp": 37.1,
+            "GPS": {
+              "latitude": 41.4035,
+              "longitude": 2.1741
+            }
+          },
+          {
+            "time": "10:00:00",
+            "HR": 76,
+            "BP": {
+              "systolic": 116,
+              "diastolic": 74
+            },
+            "Temp": 37.1,
+            "GPS": {
+              "latitude": 41.4035,
+              "longitude": 2.1741
+            }
+          }
+        ]
+      }
+    },
+    {
+      "user_id": "NEWUSR99B07D969M",
+      "static_data": {
+        "registration_date": "2024-02-11T10:00:00",
+        "name": "New",
+        "surname": "User",
+        "age": 28,
+        "gender": "Male",
+        "date_of_birth": "1996-05-14",
+        "fiscal_code": "NEWUSR99B07D969M",
+        "address": "789 Third St",
+        "phone": "321-654-9870",
+        "email": "new.user@example.com",
+        "username": "newuser",
+        "password": "encrypted_password",
+        "medical_history": {}
+      },
+      "dynamic_data": {}
+    },
+    {
+      "user_id": "NEWUSR99B07D969M",
+      "static_data": {
+        "registration_date": "2024-02-11T10:00:00",
+        "name": "New",
+        "surname": "User",
+        "age": 28,
+        "gender": "Male",
+        "date_of_birth": "1996-05-14",
+        "fiscal_code": "NEWUSR99B07D969M",
+        "address": "789 Third St",
+        "phone": "321-654-9870",
+        "email": "new.user@example.com",
+        "username": "newuser",
+        "password": "encrypted_password",
+        "medical_history": {}
+      },
+      "dynamic_data": {}
+    }
+  ]
+}
