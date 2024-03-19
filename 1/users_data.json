@@ -1,25 +1,25 @@
 {
   "users": [
     {
-      "user_id": "VDK9TZYOTPXSVBTG",
+      "user_id": "1UZPAVSKDX3TSE9Q",
       "static_data": {
-        "registration_date": "2023-08-30T19:31:50",
+        "registration_date": "2023-11-27T20:15:35",
         "name": "Mike",
-        "surname": "Brown",
-        "age": 36,
-        "gender": "Male",
-        "date_of_birth": "1988-03-28",
-        "fiscal_code": "VDK9TZYOTPXSVBTG",
-        "address": "919 Main St",
-        "phone": "675-819-1181",
-        "email": "mike.brown@example.com",
-        "username": "mikebrown85",
-        "password": "WLWOVYIVC2A8",
+        "surname": "Doe",
+        "age": 49,
+        "gender": "Female",
+        "date_of_birth": "1975-04-01",
+        "fiscal_code": "1UZPAVSKDX3TSE9Q",
+        "address": "983 Main St",
+        "phone": "595-333-6603",
+        "email": "mike.doe@example.com",
+        "username": "mikedoe51",
+        "password": "5E2LV90OWCFU",
         "medical_history": {
-          "hypertension": true,
-          "diabetes": false,
+          "hypertension": false,
+          "diabetes": true,
           "asthma": false,
-          "arthritis": true
+          "arthritis": false
         }
       },
       "dynamic_data": {
@@ -223237,7 +223237,8 @@
             82.88,
             83.03
           ]
-        }
+        },
+        "time_duration": "00:15:53"
       }
     }
   ]
