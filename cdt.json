@@ -143,9 +143,41 @@
               "latitude": 41.4035,
               "longitude": 2.1741
             }
+          },
+          {
+            "time": "10:00:00",
+            "HR": 76,
+            "BP": {
+              "systolic": 116,
+              "diastolic": 74
+            },
+            "Temp": 37.1,
+            "GPS": {
+              "latitude": 41.4035,
+              "longitude": 2.1741
+            }
           }
         ]
       }
+    },
+    {
+      "user_id": "NEWUSR99B07D969M",
+      "static_data": {
+        "registration_date": "2024-02-11T10:00:00",
+        "name": "New",
+        "surname": "User",
+        "age": 28,
+        "gender": "Male",
+        "date_of_birth": "1996-05-14",
+        "fiscal_code": "NEWUSR99B07D969M",
+        "address": "789 Third St",
+        "phone": "321-654-9870",
+        "email": "new.user@example.com",
+        "username": "newuser",
+        "password": "encrypted_password",
+        "medical_history": {}
+      },
+      "dynamic_data": {}
     },
     {
       "user_id": "NEWUSR99B07D969M",
