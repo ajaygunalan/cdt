@@ -1,28 +1,29 @@
 {
   "users": [
     {
-      "user_id": "1UZPAVSKDX3TSE9Q",
+      "user_id": "X9DATIS4QD4Y95SW",
       "static_data": {
-        "registration_date": "2023-11-27T20:15:35",
-        "name": "Mike",
+        "registration_date": "2024-02-24T20:18:25",
+        "name": "John",
         "surname": "Doe",
-        "age": 49,
+        "age": 21,
         "gender": "Female",
-        "date_of_birth": "1975-04-01",
-        "fiscal_code": "1UZPAVSKDX3TSE9Q",
-        "address": "983 Main St",
-        "phone": "595-333-6603",
-        "email": "mike.doe@example.com",
-        "username": "mikedoe51",
-        "password": "5E2LV90OWCFU",
+        "date_of_birth": "2003-03-25",
+        "fiscal_code": "X9DATIS4QD4Y95SW",
+        "address": "204 Main St",
+        "phone": "302-114-1939",
+        "email": "john.doe@example.com",
+        "username": "johndoe23",
+        "password": "1MU3YBMSFT34",
         "medical_history": {
           "hypertension": false,
           "diabetes": true,
-          "asthma": false,
+          "asthma": true,
           "arthritis": false
         }
       },
       "dynamic_data": {
+        "time_duration": "00:15:53",
         "TEMP": {
           "initial_time": 1709210875.0,
           "sample_rate": 4.0,
@@ -223237,8 +223238,7 @@
             82.88,
             83.03
           ]
-        },
-        "time_duration": "00:15:53"
+        }
       }
     }
   ]
