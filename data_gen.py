@@ -4,7 +4,7 @@ import random
 import string  
 from datetime import datetime, timedelta
 
-def read_csv_data(folder_name="1"):
+def read_csv_data(folder_name):
     csv_files = {
         "TEMP": f"{folder_name}/TEMP.csv",
         "EDA": f"{folder_name}/EDA.csv",
@@ -17,7 +17,13 @@ def read_csv_data(folder_name="1"):
     data = {}
 
     for key, file_path in csv_files.items():
-        df = pd.read_csv(file_path, header=None)
+        try:
+            df = pd.read_csv(file_path, header=None)
+            if df.empty:  # Check if the dataframe is empty
+                continue  # If it's empty, skip this file and continue with the next one
+        except pd.errors.EmptyDataError:
+            continue  # Also continue if an EmptyDataError is caught
+
         if key in ["TEMP", "EDA", "BVP", "HR"]:
             initial_time = df.iloc[0, 0]
             sample_rate = df.iloc[1, 0]
@@ -30,7 +36,6 @@ def read_csv_data(folder_name="1"):
         elif key == "ACC":
             initial_time = df.iloc[0, 0]
             sample_rate = df.iloc[1, 0]
-            # Assuming ACC.csv has three columns for x, y, z acceleration values after the initial two rows
             values = df.iloc[2:].values.tolist()  # Keep as list of lists to maintain x, y, z grouping
             data[key] = {
                 "initial_time": initial_time,
@@ -69,7 +74,8 @@ def generate_user(folder_name):
         "arthritis": random.choice([True, False])
     }
 
-    dynamic_data = read_csv_data(folder_name)
+    dynamic_data = {'time_duration': duration}  # Initialize dynamic_data with duration first
+    dynamic_data.update(read_csv_data(folder_name))  # Then read CSV data and update dynamic_data
 
     return {
         "user_id": user_id,
@@ -91,6 +97,7 @@ def generate_user(folder_name):
         "dynamic_data": dynamic_data
     }
 
+
 def main(folder_name, multiple_users=5):
     users = [generate_user(folder_name) for _ in range(multiple_users)]
     data = {"users": users}
@@ -100,6 +107,7 @@ def main(folder_name, multiple_users=5):
         json.dump(data, file, indent=2)
 
 if __name__ == "__main__":
-    folder_name = "1"  # Adjust as necessary for your folder name
+    folder_name = "5"  # Adjust as necessary for your folder name
+    duration = "09:06:00-09:07:01"
     multiple_users = 1  # Set this variable as needed
     main(folder_name, multiple_users)
