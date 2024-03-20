@@ -1,24 +1,24 @@
 {
   "users": [
     {
-      "user_id": "X9DATIS4QD4Y95SW",
+      "user_id": "4R2CKL5DFETWU8BF",
       "static_data": {
-        "registration_date": "2024-02-24T20:18:25",
-        "name": "John",
-        "surname": "Doe",
-        "age": 21,
+        "registration_date": "2023-04-09T11:42:59",
+        "name": "Mike",
+        "surname": "Smith",
+        "age": 77,
         "gender": "Female",
-        "date_of_birth": "2003-03-25",
-        "fiscal_code": "X9DATIS4QD4Y95SW",
-        "address": "204 Main St",
-        "phone": "302-114-1939",
-        "email": "john.doe@example.com",
-        "username": "johndoe23",
-        "password": "1MU3YBMSFT34",
+        "date_of_birth": "1947-04-09",
+        "fiscal_code": "4R2CKL5DFETWU8BF",
+        "address": "179 Main St",
+        "phone": "617-676-6794",
+        "email": "mike.smith@example.com",
+        "username": "mikesmith19",
+        "password": "QDB3D6CA8C38",
         "medical_history": {
           "hypertension": false,
-          "diabetes": true,
-          "asthma": true,
+          "diabetes": false,
+          "asthma": false,
           "arthritis": false
         }
       },
