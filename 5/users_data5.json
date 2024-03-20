@@ -23,7 +23,7 @@
         }
       },
       "dynamic_data": {
-        "time_duration": "09:06:00-09:07:01",
+        "time_duration": "09:06:00-09:06:55",
         "TEMP": {
           "initial_time": 1614326795.0,
           "sample_rate": 4.0,
